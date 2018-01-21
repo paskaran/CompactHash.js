@@ -53,6 +53,9 @@ Each value is URL encoded and the getter returns the value URL decoded.
 
 If you run your application with preset hash value like the above one then you should pre-initialize the compactHash with the settings for each value otherwise the present values may be overridden. 
 
+# Dependencies
+This library uses jQuery to listen on hash changes.
+
 # License
 This library is provided under the following licence:
 MIT License
