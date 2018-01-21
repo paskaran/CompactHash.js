@@ -28,17 +28,17 @@ Create an object with some settings to initialize the compactHash. Like this:
             params: [{
                 hashName: "p1",
                 onChangedListener: function (val) {
-                    console.log("M1 changed: ", val);
+                    console.log("p1 changed: ", val);
                 }
             }, {
                 hashName: "p2",
                 onChangedListener: function (val) {
-                    console.log("M2 changed: ", val);
+                    console.log("p2 changed: ", val);
                 }
             }, {
                 hashName: "p3",
                 onChangedListener: function (val) {
-                    console.log("M3 changed: ", val);
+                    console.log("p3 changed: ", val);
                 }
             }]
         };
