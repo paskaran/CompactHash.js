@@ -48,7 +48,7 @@ Create an object with some settings to initialize the compactHash. Like this:
 # Important information
 Please consider the order of the parameter registrations. The order of the registration is the index of the position of the parameter value in hash. 
 		
-	/c_h_/value_for_p1,value_for_p2,value_for_p3/_c_h/
+	#/c_h_/value_for_p1,value_for_p2,value_for_p3/_c_h/
 Each value is URL encoded and the getter returns the value URL decoded.
 
 If you run your application with preset hash value like the above one then you should pre-initialize the compactHash with the settings for each value otherwise the present values may be overridden. 
