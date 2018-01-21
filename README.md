@@ -60,7 +60,7 @@ This library uses jQuery to listen on hash changes.
 This library is provided under the following licence:
 MIT License
 
-Copyright (c) 2018 Kami
+Copyright (c) 2018 Paskaran
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
