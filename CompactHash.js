@@ -8,7 +8,7 @@ window.compactHash = (function () {
     const _getPrototypeKey = "Hash.prototype.get";
     const _setKey = "set";
     const _getKey = "get";
-    var _instance = new Hash();
+    var _instance = new CompactHash();
     var _registerMap = [];
     var _valueMap = [];
     var _id = 0;
@@ -20,7 +20,7 @@ window.compactHash = (function () {
         $('a.hash-changer').bind('click', _onHashChange.bind(this));
     }
 
-    function Hash() { }
+    function CompactHash() { }
 
     function _setHash(hash) {
         window.location.hash = hash;
@@ -167,11 +167,11 @@ window.compactHash = (function () {
     }
 
 
-    Hash.prototype.initialize = _initialize;
+    CompactHash.prototype.initialize = _initialize;
 
-    Hash.prototype.unregister = _unregister;
+    CompactHash.prototype.unregister = _unregister;
 
-    Hash.prototype.register = _register;
+    CompactHash.prototype.register = _register;
 
     function IllegalArgumentException(message) {
         this.message = message;
